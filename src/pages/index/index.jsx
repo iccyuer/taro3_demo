@@ -8,15 +8,15 @@ import './index.less'
 @inject('store')
 @observer
 class Index extends Component {
-  componentWillMount () { }
+  componentWillMount() { }
 
-  componentDidMount () { }
+  componentDidMount() { }
 
-  componentWillUnmount () { }
+  componentWillUnmount() { }
 
-  componentDidShow () { }
+  componentDidShow() { }
 
-  componentDidHide () { }
+  componentDidHide() { }
 
   increment = () => {
     const { counterStore } = this.props.store
@@ -33,7 +33,7 @@ class Index extends Component {
     counterStore.incrementAsync()
   }
 
-  render () {
+  render() {
     const { counterStore: { counter } } = this.props.store
     return (
       <View className='index'>

@@ -35,26 +35,27 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "3.3.20",
+    "@tarojs/react": "3.3.20",
     "@tarojs/runtime": "3.3.20",
     "@tarojs/taro": "3.3.20",
-    "@tarojs/components": "3.3.20",
     "mobx": "^4.8.0",
     "mobx-react": "^6.1.4",
-    "react-dom": "^17.0.0",
-    "@tarojs/react": "3.3.20",
-    "react": "^17.0.0"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.13.6",
-    "@types/react": "^17.0.2",
-    "@tarojs/mini-runner": "3.3.20",
     "@babel/core": "^7.8.0",
+    "@tarojs/cli": "^3.3.20",
+    "@tarojs/mini-runner": "3.3.20",
     "@tarojs/webpack-runner": "3.3.20",
+    "@types/react": "^17.0.2",
+    "@types/webpack-env": "^1.13.6",
     "babel-preset-taro": "3.3.20",
-    "eslint-config-taro": "3.3.20",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.8.2",
+    "eslint-config-taro": "3.3.20",
     "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "stylelint": "9.3.0"
   }
