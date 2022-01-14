@@ -2,15 +2,19 @@ import { Component } from 'react'
 import { Provider } from 'mobx-react'
 
 import counterStore from './store/counter'
+import userStore from './store/user'
 
 import './app.less'
 
 const store = {
-  counterStore
+  counterStore,
+  userStore
 }
 
 class App extends Component {
-  componentDidMount () {}
+  async componentDidMount () {
+    console.log('app componentDidMount')
+  }
 
   componentDidShow () {}
 

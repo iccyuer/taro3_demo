@@ -5,12 +5,17 @@ import basePage from '../../utils/basePage'
 import './index.less'
 
 
-@inject('store')
+// @inject('store')
+@inject(({store}, props) => ({
+  userStore: store.userStore
+}))
 @observer
 class Index extends basePage {
 
   async componentWillMount() {
     await super.componentWillMount()
+    let { userInfo } = this.props.userStore;
+    console.log('userInfo', userInfo)
     console.log('profile componentWillMount')
   }
 
